@@ -3,10 +3,10 @@ name: CI Pipeline  # Имя пайплайна, отображается в ин
 on:
   push:
     branches:
-      - main  # Пайплайн запускается при пуше в основную ветку (main)
+      - master  # Пайплайн запускается при пуше в основную ветку (main)
   pull_request:
     branches:
-      - main  # Пайплайн запускается при открытии pull request'а на main
+      - master  # Пайплайн запускается при открытии pull request'а на main
 
 jobs:
   lint:
